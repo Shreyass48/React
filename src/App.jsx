@@ -1,6 +1,7 @@
 import Card from "./components/Card";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Counter from "./components/Counter";
 
 function App() {
   const cardData = [
@@ -21,6 +22,7 @@ function App() {
     <>
       <Header />
       <Card cardData={cardData} />
+      <Counter />
       <Footer />
 
       {/* With conditional props
