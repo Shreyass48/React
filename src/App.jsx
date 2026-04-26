@@ -1,10 +1,12 @@
 import UseMemoDemo from "./demos/UseMemoDemo";
+import { UseRefDemo, UseRefHTMLDemo } from "./demos/UseRefDemo";
 
 function App() {
   return (
     <>
-      <p className="text-red-400">hi</p>
-      <UseMemoDemo />
+      {/* <UseMemoDemo /> */}
+      <UseRefDemo />
+      <UseRefHTMLDemo />
     </>
   );
 }
