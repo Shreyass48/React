@@ -1,5 +1,6 @@
 import UseContextDemo from "./demos/UseContextDemo";
 import UseMemoDemo from "./demos/UseMemoDemo";
+import UseReducerDemo from "./demos/UseReducerDemo";
 import { UseRefDemo, UseRefHTMLDemo } from "./demos/UseRefDemo";
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
       {/* <UseMemoDemo /> */}
       {/* <UseRefDemo />
       <UseRefHTMLDemo /> */}
-      <UseContextDemo />
+      {/* <UseContextDemo /> */}
+      <UseReducerDemo />
     </>
   );
 }

@@ -8,7 +8,7 @@ export function Sidebar() {
     <div className="w-64 h-screen bg-slate-800 text-white p-6 shadow-lg">
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-6">
-          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-lg font-bold">
+          <div className="w-12 h-12 rounded-full from-blue-500 to-purple-600 flex items-center justify-center text-lg font-bold">
             {user.name.charAt(0).toUpperCase()}
           </div>
           <div>
