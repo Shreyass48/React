@@ -1,10 +1,11 @@
-# ⚛️ React Foundations (Quick Notes)
+# ⚛️ React Intermediate Concepts 1
 
-Core React concepts for beginners:
+Key concepts to level up your React skills:
 
-- **JSX & Components**: Functional vs class components, list rendering, conditional UI
-- **State & Effects**: `useState`, `useEffect`, side effects, cleanup, dependency array
-- **Props**: Passing data, default props, prop types, prop drilling issue
-- **Virtual DOM**: Diffing, reconciliation, importance of `key`, fiber basics
+- **Essential Hooks**:  
+  `useContext`, `useReducer`, `useRef`, `useMemo`, `useCallback` — when and why to use each
 
-🚀 Goal: Build a strong foundation to create dynamic and scalable React apps.
+- **Custom Hooks**:  
+  Extract reusable logic (`useFetch`, `useDebounce`, `useLocalStorage`)
+
+🚀 Goal: Write scalable, reusable, and optimized React code.
