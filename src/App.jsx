@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Counter from "./components/Counter";
 
 function App() {
+  const userData = { name: "Rajesh", role: "Admin" };
   const cardData = [
     {
       title: "Card Title 1",
@@ -20,7 +21,7 @@ function App() {
   ];
   return (
     <>
-      <Header />
+      <Header userData={userData} />
       <Card cardData={cardData} />
       <Counter />
       <Footer />
