@@ -1,7 +1,9 @@
+import Home from "./context-api/Home";
+
 function App() {
   return (
     <>
-      <p className="text-red-200">test</p>
+      <Home />
     </>
   );
 }
