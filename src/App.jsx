@@ -1,9 +1,11 @@
+import CounterRedux from "./components/counterRedux";
 import Home from "./context-api/Home";
 
 function App() {
   return (
     <>
-      <Home />
+      {/* <Home /> */}
+      <CounterRedux />
     </>
   );
 }
