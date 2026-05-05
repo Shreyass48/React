@@ -12,6 +12,7 @@ export default function CounterZustand() {
       <h1>{bears} bears around here...</h1>
       <button onClick={increasePopulation}>one up</button>
       <button onClick={() => updateBears(10)}>set to 10</button>
+      <button onClick={() => useBear.getState().decrementAsync()}>Dec</button>
     </div>
   );
 }
