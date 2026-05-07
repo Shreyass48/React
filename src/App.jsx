@@ -1,7 +1,9 @@
+import EventHandling from "./event-handling/EventHandling";
+
 function App() {
   return (
     <>
-      <p className="text-red-200">test</p>
+      <EventHandling />
     </>
   );
 }
