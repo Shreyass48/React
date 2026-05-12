@@ -1,9 +1,11 @@
 import EventHandling from "./event-handling/EventHandling";
+import DemoForm from "./forms/DemoForm";
 
 function App() {
   return (
     <>
-      <EventHandling />
+      {/* <EventHandling /> */}
+      <DemoForm />
     </>
   );
 }
