@@ -19,7 +19,9 @@ export default function MemoExample() {
     <>
       <p>Parent: {parent}</p>
       <button onClick={updateParent}>Update Parent</button>
+      {/* memo */}
       <Child1 value={child1} />
+      {/* not memo */}
       <Child2 value={child2} />
     </>
   );
