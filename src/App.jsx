@@ -1,7 +1,9 @@
+import MemoExample from "./memo/MemoExample";
+
 function App() {
   return (
     <>
-      <p className="text-red-200">test</p>
+      <MemoExample />
     </>
   );
 }
